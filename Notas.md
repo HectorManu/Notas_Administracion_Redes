@@ -146,7 +146,96 @@ El día de hoy se siguen con las exposiciones faltantes
 - Diferencias
   - la diferenica de la S
   - Nivel de seguridad es más bajo de http 
-  - en https si requiere validación de dominio 
+  - en https si requiere validación de dominio
+
+
+## 17/03/2023
+
+El día d ehoy se hacen expocisiones de distintos dispositivos.
+
+### Router
+
+- Pues empiezan definiendo qué es un router entonces hablan de cuál es su función y etc
+- ventajas
+  - comparte la coneción a internet 
+  - enrutamiento eficiente
+  - seguridad
+- Desventajas
+  - costo 
+  - configuración 
+  - fallos técnicos
+  - vulnerabilidades de seguridad
+
+
+### Brouters
+Convinación entre un router y un switch
+- unir diferentes segmentos de red y en caos de reciir información y no manejar el protocolo entonces si no tlo tiene y básicamente empieza a utilzar el meto de **bridge** para poder adaptarse a la informaicón y no perter paquetes de datos
+- Diferencia entre un router y un **brouter**
+  - necesita más capacidad de procesamiento
+  - costo ya que tiene mas funciones a diferencia de un router 
+  - Topologia de red, este tiene limitaciones de topologias 
+- Funcionamiento
+  - fución de un router pero a diferencia es que 
+- Tipos
+  - de software, un dispositivo que no es un brouters adquiere la función de brouters 
+  - hardware el cua l es el dispositov enbebido para funcionar como se define
+  - integrados son dispotivos que conmbinad las funciones de brouter un swithc y otors componente de red en uno solo unidad
+  - de borde son loq eu se utulian en la conexión entre redes de diferente proveedores
+  - acceso utilizan en las conexiónes entre la red de un proveedor y los sdispositov ifnlaes de los usuarios
+- PROTOCOLOS QUE UTILIZA
+  - rid 
+  - ospf
+  - bgp
+  - wigrp
+  - s-is
+- topologias utilizadas en brouters
+  - may 
+  - estrella
+  - artificial
+- Aplicaciones de la vida real
+  - fabricar varios segmentos de red
+  - video conferencias para enrutar el tráfico de video y audio 
+  - distribución de redes elécticas inteligentes 
+  - sistemas de control industrial intercambia diferentes dispotivos y controladores 
+  - VoIP enrutar el tráfico de voz a través de la red 
+
+### firewall
+es un dispositivo de seguridad de la red entrante y saliente
+- han constituido la primera línea de seguridad desde hace 25 años
+- primera línea de defensa entre redes
+- tipos 
+  - proxi
+  - activa
+  - administración indetificada de amenzas
+  - próxima generación
+  - controlado de amenazas
+- no tiene una protección interna
+- siempre mantener actializado ya que nos previene de nuevas vulnerabilidades
+- necesita trabajar con un detector de virus 
+- limita los puertos y host accesiboes par auna lista de permitod por defecto
+- tener copias de seguridad dentro d elos datos de os host y esto previene de la perdida de datos 
+
+
+### Proxy
+intermediario que actúa com onitermediaro entre el cliente y otros servidores o recursos de internet. cuando te conectas a través dde el tu solicitud se envía primero al servidor proxy, que luego actua en tu nombre para solicitar y recibir información de los sercidores que eseaa acceder. estos significa que tu conexión no se comparten directamente quién solicito la información 
+- un protocolo proxy es un conjunto de reglas y procedimientos que se utilizan para cominicar un clinete con un servicor proxy 
+- existen varios protocolos de proxy
+  - http
+  - socks
+  - ftp 
+  - ssl
+- Desventajas
+  - velocidas disminuyes
+  - seguridad de seguridad 
+  - falta de privacidad 
+  - depentendia del servidor proxy 
+  - incompatibilidad con ciertos servicios
+
+### Gateway 
+
+
+### MODEM 
+
 
 
 
