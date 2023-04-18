@@ -237,5 +237,35 @@ intermediario que actúa com onitermediaro entre el cliente y otros servidores o
 ### MODEM 
 
 
+## 28/03/2023
+
+### video de seguridad de redes
+-Problemas paa considerar
+- si tenemoes en nuestra DMZ un servvidor web 
+- cómo detectamos si un acker esta lanzando ataques como Traversal Directory o cualquier otro ataque cómo detectamos el ataque?
+  - qué es ataque traveresal directory 
+    - es un ataque que funciona solo contra servidores web en cual el atacante intenta salir de la carpeta donde están almacenadas las páginas web y interntear accedder a las carpetas system32 donde esta comando CMD para poder ejecutar comandos en el servidor 
+    - esta vulnerabilidad se abusa dela configuración de pesims inccorrecta en el servidoer mismo 
+  - Cómo prevenimos el ataque
+    - necesitmaos un instrusión detection system 
+      - examina todo el tráfico entrenando a un segmento y lo compara con una lista de frmas los id t tienen firmas para varios siervicios sisp y varios más 
+      - cuando detecta un ataque solo reporta en general via mail, al adminsistrador que ha detectado un ataque 
+      - en general es un appliance ue sd coloca en la dmz por que es un segmento con alto riesto pero tenemos clientes que o colocan en su redn interna 
+      - cuando el idas detecta al ataque envía un mail al administrador avisandole que se detecto un ataque en esta caso de ataque travelsal directory 
+      - **reporta por ataques encontrados**
+  - Cómo se conecta un ids
+    - tiene que ver todo el trafico entrante para capturar todo el trafico en el segmento para poder detecta ataque implemtamos port mirros cico la lama span port en un comando en el cual le indicamos al switch que copie todo el trafico que entra y sale el puerto 1 puerto 4 hacemos port mirror de puerto y concetado a fw porque de ese peurto entraran los aaque externos 
+    - **El interface de red del IDS eseta configuraro en modo promisco**
+  - El management administra los sensores 
+    - el fabricante publica nuevas firmas cada mes en el management baamos nuevas firmas y aplicamos en cada sensor solo las firmas para protocolos que corrrespondan al segmento por ejemplo en el segmento dmz aplicamroes solo firmas que corresponden a ataques contra servidores window 2001 
+  - El fabricante de esetos ids dicen que estos ids detectan ataues nuevos porque cada ataque genera. 
+  - El magagemetn también tiene una Base de datos con todo los eventos y ataque detectados por los sensores 
+  - en general vemos implementado ips en la dmz por el riesgo maor que tiene esste segmento pero a veces nuestro clientes colocan este equpipo en la LAN 
+  - El switch tiene firmas para etectar ataques en varios protocolos ademas puede detectar si una pc interno es parte de botnt  ypudede detectar 
+
+# 18/04/2023
+
+## regresó de vacacioens 
+
 
 
