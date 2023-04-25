@@ -268,4 +268,12 @@ intermediario que actúa com onitermediaro entre el cliente y otros servidores o
 ## regresó de vacacioens 
 
 
+# 25/04/2023
+
+- **F**ault
+- **C**onfiguration
+- **A**ccounting
+- **P**erformance
+- **S**ecurity
+
 
